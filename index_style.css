@@ -21,6 +21,8 @@ h1{
     text-align: center;
     color: #FDCD5C;
     margin: 0 auto;
+    padding: 20px;
+    font-family: 'Press Start 2P', cursive;
     
 }
 
@@ -57,13 +59,9 @@ h1{
 
 .btn-game > img{
     width:75%;
-    height: auto;
-    
+    height: auto; 
 }
 
-img:hover{
-/*    border: 3px solid yellow;*/
-}
 
 
 
