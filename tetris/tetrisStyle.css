@@ -1,0 +1,60 @@
+body{
+    background-color: #323232;
+    color:whitesmoke;
+}
+
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+    color: darkmagenta;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+}
+
+#gameView{
+    border: 1px darkmagenta solid;
+
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin: 10px;
+}
+
+#blocks{
+    float: left;
+    width: 440px;
+    height: 310px;
+    border: 1px darkmagenta solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#points{
+    float: left;
+    width: 440px;
+    height: 268px;
+    border: 1px darkmagenta solid;
+    border-radius: 10px;
+    margin: 10px;
+    color: darkmagenta;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+
+    text-align: center;
+    
+}
+
+#score{
+    color:darkmagenta;
+    font-size: 52px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    /* vertical-align: middle;
+    line-height: 310px; */
+}

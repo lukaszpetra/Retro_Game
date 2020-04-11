@@ -33,7 +33,7 @@ h1{
     border-radius: 20px;
     color: #FDCD5C;
     border: none;
-    border: 4px solid  #FDCD5C;
+/*    border: 4px solid  #FDCD5C;*/
     text-decoration: none;
     background-color: #13538F;
     font-size: 20px;
@@ -44,13 +44,14 @@ h1{
 #tetris{
     background-color:  #13538F;
     
-    transition-property: border, color,border-radius;
+    transition-property: border, color,border-radius, background-color;
     transition-duration: 1s;
 }
 
 #tetris:hover{
     border: 5px solid #FDCD5C;
     border-radius: 8rem;
+    background-color: #02427E;
 }
 
 
