@@ -1,7 +1,7 @@
 @import url(reset.css);
 
 body{
-    background-color: #323232;
+    background-color: #13538F;
     color: whitesmoke;
     
 }
@@ -19,7 +19,7 @@ body{
 h1{
     font-size: 6rem;
     text-align: center;
-    color: blueviolet;
+    color: #FDCD5C;
     margin: 0 auto;
     
 }
@@ -30,15 +30,44 @@ h1{
     width: 15rem;
     flex-wrap: wrap;
     margin-left: 50px;
-    border-radius: 10px;
-    color: blueviolet;
+    border-radius: 20px;
+    color: #FDCD5C;
     border: none;
-    border: 3px solid blueviolet;
+    border: 4px solid  #FDCD5C;
     text-decoration: none;
-    background-color: #323232;
-    
-    
-   
-    
+    background-color: #13538F;
+    font-size: 20px;
+    cursor: pointer;
     
 }
+
+#tetris{
+    background-color:  #13538F;
+    
+    transition-property: border, color,border-radius;
+    transition-duration: 1s;
+}
+
+#tetris:hover{
+    border: 5px solid #FDCD5C;
+    border-radius: 8rem;
+}
+
+
+.btn-game > img{
+    width:75%;
+    height: auto;
+    
+}
+
+img:hover{
+/*    border: 3px solid yellow;*/
+}
+
+
+
+
+
+
+
+
