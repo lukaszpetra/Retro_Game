@@ -5,14 +5,14 @@ const scoreElement = document.getElementById("score");
 const ROW = 15;
 const COL = COLUMN = 10;
 const SQ = squareSize = 40;
-const VACANT = "#323232"; // color of an empty square
+const VACANT = "#02427E"; // color of an empty square
 
 // draw a square
 function drawSquare(x,y,color){
     ctx.fillStyle = color;
     ctx.fillRect(x*SQ,y*SQ,SQ,SQ);
 
-    ctx.strokeStyle = "#8b008b";
+    ctx.strokeStyle = "#02427E";
     ctx.strokeRect(x*SQ,y*SQ,SQ,SQ);
 }
 

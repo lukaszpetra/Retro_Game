@@ -1,5 +1,5 @@
 body{
-    background-color: #323232;
+    background-color:#02427E;
     color:whitesmoke;
 }
 
@@ -10,7 +10,7 @@ body{
 }
 
 #logo{
-    color: darkmagenta;
+    color: #FDCD5C;
     font-size: 35px;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
@@ -18,7 +18,7 @@ body{
 }
 
 #gameView{
-    border: 1px darkmagenta solid;
+    border: 1px #FDCD5C solid;
 
     width: 400px;
     height: 600px;
@@ -30,7 +30,7 @@ body{
     float: left;
     width: 440px;
     height: 310px;
-    border: 1px darkmagenta solid;
+    border: 1px #FDCD5C solid;
     border-radius: 10px;
     margin: 10px;
 }
@@ -39,10 +39,10 @@ body{
     float: left;
     width: 440px;
     height: 268px;
-    border: 1px darkmagenta solid;
+    border: 1px #FDCD5C solid;
     border-radius: 10px;
     margin: 10px;
-    color: darkmagenta;
+    color: #FDCD5C;
     font-size: 32px;
     font-family: 'Press Start 2P', cursive;
 
@@ -51,7 +51,7 @@ body{
 }
 
 #score{
-    color:darkmagenta;
+    color: #FDCD5C;
     font-size: 52px;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
