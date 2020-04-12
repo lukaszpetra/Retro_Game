@@ -26,13 +26,18 @@ body{
     margin: 10px;
 }
 
-#blocks{
+#use{
     float: left;
     width: 440px;
     height: 310px;
     border: 1px #FDCD5C solid;
     border-radius: 10px;
     margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    color: #FDCD5C;
+    text-align: center;
+    
 }
 
 #points{
@@ -45,9 +50,13 @@ body{
     color: #FDCD5C;
     font-size: 32px;
     font-family: 'Press Start 2P', cursive;
-
     text-align: center;
-    
+}
+
+img{
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
 }
 
 #score{
